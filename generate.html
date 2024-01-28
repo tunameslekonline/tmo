@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.js">
+    </script>
+</head>
+<body style="background-color: black; width: 100%; height: 100%;" id="xarea">
+    <div id="area">
+        <p class="group-text" id="gpText">SABAHÇI GRUP</p>
+        <p class="confess-text">BİR İTİRAF PAYLAŞ</p>
+        <div class="confess-textarea generate-div">
+            <p id="generateconfess"></p>
+        </div>
+    </div>
+    <script>
+        var input
+        input = document.getElementById("generateconfess")
+        var ginput = document.getElementById("gpText")
+        let groupInput = prompt("sabahçı (s) öğlenci (o) grup mu ?")
+        if(groupInput=="s"){
+        }
+        else{
+            ginput.innerHTML = "ÖĞLENCİ GRUP"
+        }
+        let confessInput = prompt("itiraf gir")
+        input.innerHTML = confessInput
+        var imageCanvas
+        html2canvas(document.getElementById("xarea"), {backgroundColor:"#000000"}).then(function(canvas){
+            imageCanvas = canvas
+            var image = imageCanvas.toDataURL()
+            var templink = document.createElement("a")
+            templink.download = "itiraf.png"
+            templink.href = image
+            document.body.appendChild(templink)
+            templink.click()
+        })
+    </script>
+</body>

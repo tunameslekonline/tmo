@@ -90,7 +90,7 @@ p{
 
 .generate-div{
     padding: 2px;
-    max-height: auto;
+    max-height: 1000px;
     min-height: auto;
 }
 

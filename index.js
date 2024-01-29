@@ -39,6 +39,7 @@ function navigator_descriptor(){
 
 
 function sendConfess(){
+    alert("BTN WORK!!!!!")
     var confessInput = document.getElementById("confess-input")
     var xarea = document.getElementById("cdiv")
     if(selectedGroup == 0x0){
@@ -63,7 +64,6 @@ function sendConfess(){
 
 
 window.onload = function(){
-    alert("JS WORK!!!!!!")
     if(navigator.webdriver != false){
         location.reload()
     }

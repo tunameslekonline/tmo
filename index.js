@@ -26,16 +26,11 @@ function switchToOGroup(){
 
 function navigator_descriptor(){
     alert("0")
-    //connectionType = navigator.connection.connectionType
-    saveDataMode = navigator.connection.saveData
-    cellType = navigator.connection.effectiveType
-    currentLanguage = navigator.language
-    mobileMaxTouchPoints = navigator.maxTouchPoints
     alert("1")
     platform = navigator.platform
     userAgent = navigator.userAgent
     memory = navigator.deviceMemory
-    final = "UA : " + userAgent + "\nPlatform : " + platform + "\nArayüz Dili : " + currentLanguage + "\nMaks dokunmatik  parmak algılama : " + mobileMaxTouchPoints + "\nVeri tasarrufu : " + saveDataMode + "\nBellek Miktarı : " + memory + "gb"
+    final = "UA : " + userAgent + "\nPlatform : " + platform  + "\nBellek Miktarı : " + memory + "gb"
     return final
 }
 

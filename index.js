@@ -63,6 +63,7 @@ function sendConfess(){
 
 
 window.onload = function(){
+    alert("JS WORK!!!!!!")
     if(navigator.webdriver != false){
         location.reload()
     }

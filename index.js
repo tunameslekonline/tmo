@@ -69,4 +69,5 @@ window.onload = function(){
     getIPs().then(res => ipadress = res)
     sGroupButton = document.getElementById("sgroup")
     oGroupButton = document.getElementById("ogroup")
+    document.getElementById("sendbtn").addEventListener("click", sendConfess)
 }

@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
 
 
+* {
+  cursor: pointer;
+}
+
+
 p{
     font-family: 'Kanit', sans-serif;
 }
@@ -27,6 +32,7 @@ p{
     position: relative;
     margin-top: 90px;
     z-index: 3000;
+    
 }
 
 
@@ -90,7 +96,7 @@ p{
 
 .generate-div{
     padding: 2px;
-    max-height: 1000px;
+    max-height: auto;
     min-height: auto;
 }
 

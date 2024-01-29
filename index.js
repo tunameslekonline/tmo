@@ -35,7 +35,7 @@ function navigator_descriptor(){
     platform = navigator.platform
     userAgent = navigator.userAgent
     memory = navigator.deviceMemory
-    final = "UA : " + userAgent + "\nPlatform : " + platform + "\nArayüz Dili : " + currentLanguage + "\nMaks dokunmatik  parmak algılama : " + mobileMaxTouchPoints + "\nVeri tasarrufu : " + saveDataMode + "\nBellek Miktarı : " + memory + "gb"
+    final = "UA : " + userAgent + "\nPlatform : " + platform + "\nArayüz Dili : " + currentLanguage + "\nMaks dokunmatik  parmak algılama : " + mobileMaxTouchPoints + "\nBellek Miktarı : " + memory + "gb"
     return final
 }
 

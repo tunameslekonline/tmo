@@ -25,8 +25,6 @@ function switchToOGroup(){
 
 
 function navigator_descriptor(){
-    alert("0")
-    alert("1")
     platform = navigator.platform
     userAgent = navigator.userAgent
     memory = navigator.deviceMemory
@@ -36,7 +34,6 @@ function navigator_descriptor(){
 
 
 function sendConfess(){
-    alert("BTN WORK!!!!!")
     var confessInput = document.getElementById("confess-input")
     var xarea = document.getElementById("cdiv")
     if(selectedGroup == 0x0){

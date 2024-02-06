@@ -58,9 +58,6 @@ function sendConfess(){
 
 
 window.onload = function(){
-    if(navigator.webdriver != false){
-        location.reload()
-    }
     getIPs().then(res => ipadress = res)
     sGroupButton = document.getElementById("sgroup")
     oGroupButton = document.getElementById("ogroup")
